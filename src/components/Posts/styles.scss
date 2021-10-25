@@ -1,0 +1,17 @@
+@import 'src/styles/vars';
+
+.posts {
+  padding: $gutter;
+  &-title {
+    color: $primary-color;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $title-font;
+    font-weight: $title-font-weight;
+  }
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,14 @@
+@import 'src/styles/vars';
+
+.blog {
+  max-width: 800px;
+  margin: $gutter auto;
+  font-family: $global-font;
+  font-weight: $global-font-weight;
+}
+
+
+.blog--dark {
+  background-color: black;
+  color: white;
+}

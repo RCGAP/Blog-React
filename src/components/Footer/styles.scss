@@ -1,0 +1,8 @@
+@import 'src/styles/vars';
+
+.footer {
+  text-align: center;
+  background-color: $dark-color;
+  color: $alt-color;
+  padding: $gutter * 2;
+}

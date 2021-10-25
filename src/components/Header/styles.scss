@@ -1,0 +1,29 @@
+@import 'src/styles/vars';
+
+.header {
+  .menu {
+    text-align: center;
+    padding: $gutter;
+    border-bottom: 1px solid $alt-color;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    &-link {
+      color: $dark-color;
+      margin: 0 $gutter;
+      &:hover, &--active:hover {
+        color: $primary-color;
+      }
+      &--active {
+        margin: 0 $gutter;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.blog--dark {
+  .menu-link {
+    color: white;
+  }
+}
